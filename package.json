@@ -5,7 +5,7 @@
   "author": "likhit92 <mrlikhit1992@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "parcel build src/index.html"
+    "build": "parcel build src/index.html --experimental-scope-hoisting"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
