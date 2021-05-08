@@ -44,6 +44,7 @@ export default function App() {
         {format(addDays(new Date(), 1), 'EEEE d-MMM')} there will be{' '}
         <strong>{results.length}</strong> near misses
       </p>
+      <p>My web dev 2021</p>
       <hr></hr>
       {results
         .sort((a) => (a.is_potentially_hazardous_asteroid ? -1 : 1))
